@@ -8,6 +8,6 @@ function destructivelyAppendKitten(name){
 }
 
 function destructivelyPrependKitten(name){
-  kittens = kittens.slice(name)
+  kittens = [name,...kittens]
   return kittens
 }
